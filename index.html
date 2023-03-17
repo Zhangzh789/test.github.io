@@ -16,10 +16,12 @@
         const box = document.getElementById('h2')
         btn.onclick=function(){
             const name = prompt('请输入你的名字')
+            if(name == 张政豪){
+            alert('请重新输入名字')}else{
             const str1 = name + '我是你爹'
             setInterval(function(){
             box.innerText += str1 +'------'
-            },1000)
+            },1000)}
         }
 
     </script>
