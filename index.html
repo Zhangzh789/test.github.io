@@ -7,6 +7,20 @@
     <title>Document</title>
 </head>
 <body>
-  <h1>hello world!</h1>
+    <div id="box">
+        <h2>猜猜我是谁</h2>
+        <button id="btn">点我知道答案</button>
+        <h2 id="h2"></h2>
+    </div>
+    <script>
+        const str1 = '李凯城我是你爹'
+        const box = document.getElementById('h2')
+        btn.onclick=function(){
+            setInterval(function(){
+            box.innerText += str1 +'------'
+            },1000)
+        }
+
+    </script>
 </body>
 </html>
