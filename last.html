@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>张政豪的请假条</title>
+  <title></title>
   <link rel="stylesheet" href="./base.css">
   <link rel="stylesheet" href="./detail_leave.css">
   <link rel="stylesheet" href="./zoomify.min.css">
@@ -101,6 +101,7 @@
         $('#approved').attr("value",data.data[9])
         $('#parent').attr("value",data.data[10])
         $('#state').attr("value",data.data[11])
+	 $("title").html(data.data[12])     
 	      
 	      function FormatDate () {
           var now = new Date();
